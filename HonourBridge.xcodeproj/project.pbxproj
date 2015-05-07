@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98048291AFBE7CD006215C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98048281AFBE7CD006215C4 /* main.m */; };
+		D980482C1AFBE7CD006215C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D980482B1AFBE7CD006215C4 /* AppDelegate.m */; };
+		D98048431AFBE7CD006215C4 /* HonourBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D980483D1AFBE7CD006215C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D980481B1AFBE7CD006215C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98048221AFBE7CD006215C4;
+			remoteInfo = HonourBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D98048231AFBE7CD006215C4 /* HonourBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonourBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98048271AFBE7CD006215C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98048281AFBE7CD006215C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D980482A1AFBE7CD006215C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D980482B1AFBE7CD006215C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonourBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98048411AFBE7CD006215C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HonourBridgeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98048201AFBE7CD006215C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98048391AFBE7CD006215C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D980481A1AFBE7CD006215C4 = {
+			isa = PBXGroup;
+			children = (
+				D98048251AFBE7CD006215C4 /* HonourBridge */,
+				D980483F1AFBE7CD006215C4 /* HonourBridgeTests */,
+				D98048241AFBE7CD006215C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98048241AFBE7CD006215C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98048231AFBE7CD006215C4 /* HonourBridge.app */,
+				D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98048251AFBE7CD006215C4 /* HonourBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D980482A1AFBE7CD006215C4 /* AppDelegate.h */,
+				D980482B1AFBE7CD006215C4 /* AppDelegate.m */,
+				D98048261AFBE7CD006215C4 /* Supporting Files */,
+			);
+			path = HonourBridge;
+			sourceTree = "<group>";
+		};
+		D98048261AFBE7CD006215C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D98048271AFBE7CD006215C4 /* Info.plist */,
+				D98048281AFBE7CD006215C4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D980483F1AFBE7CD006215C4 /* HonourBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */,
+				D98048401AFBE7CD006215C4 /* Supporting Files */,
+			);
+			path = HonourBridgeTests;
+			sourceTree = "<group>";
+		};
+		D98048401AFBE7CD006215C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D98048411AFBE7CD006215C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D98048221AFBE7CD006215C4 /* HonourBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98048461AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridge" */;
+			buildPhases = (
+				D980481F1AFBE7CD006215C4 /* Sources */,
+				D98048201AFBE7CD006215C4 /* Frameworks */,
+				D98048211AFBE7CD006215C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HonourBridge;
+			productName = HonourBridge;
+			productReference = D98048231AFBE7CD006215C4 /* HonourBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D980483B1AFBE7CD006215C4 /* HonourBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98048491AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridgeTests" */;
+			buildPhases = (
+				D98048381AFBE7CD006215C4 /* Sources */,
+				D98048391AFBE7CD006215C4 /* Frameworks */,
+				D980483A1AFBE7CD006215C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D980483E1AFBE7CD006215C4 /* PBXTargetDependency */,
+			);
+			name = HonourBridgeTests;
+			productName = HonourBridgeTests;
+			productReference = D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D980481B1AFBE7CD006215C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jean Pimentel";
+				TargetAttributes = {
+					D98048221AFBE7CD006215C4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					D980483B1AFBE7CD006215C4 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D98048221AFBE7CD006215C4;
+					};
+				};
+			};
+			buildConfigurationList = D980481E1AFBE7CD006215C4 /* Build configuration list for PBXProject "HonourBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D980481A1AFBE7CD006215C4;
+			productRefGroup = D98048241AFBE7CD006215C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98048221AFBE7CD006215C4 /* HonourBridge */,
+				D980483B1AFBE7CD006215C4 /* HonourBridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98048211AFBE7CD006215C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D980483A1AFBE7CD006215C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D980481F1AFBE7CD006215C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D980482C1AFBE7CD006215C4 /* AppDelegate.m in Sources */,
+				D98048291AFBE7CD006215C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98048381AFBE7CD006215C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98048431AFBE7CD006215C4 /* HonourBridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D980483E1AFBE7CD006215C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98048221AFBE7CD006215C4 /* HonourBridge */;
+			targetProxy = D980483D1AFBE7CD006215C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D98048441AFBE7CD006215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D98048451AFBE7CD006215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98048471AFBE7CD006215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonourBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D98048481AFBE7CD006215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HonourBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D980484A1AFBE7CD006215C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonourBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonourBridge.app/HonourBridge";
+			};
+			name = Debug;
+		};
+		D980484B1AFBE7CD006215C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HonourBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonourBridge.app/HonourBridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D980481E1AFBE7CD006215C4 /* Build configuration list for PBXProject "HonourBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98048441AFBE7CD006215C4 /* Debug */,
+				D98048451AFBE7CD006215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98048461AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98048471AFBE7CD006215C4 /* Debug */,
+				D98048481AFBE7CD006215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D98048491AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D980484A1AFBE7CD006215C4 /* Debug */,
+				D980484B1AFBE7CD006215C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D980481B1AFBE7CD006215C4 /* Project object */;
+}
