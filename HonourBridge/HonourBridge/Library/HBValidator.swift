@@ -40,11 +40,12 @@ import Swift
         self.mapRules = [:]
     }
 
-    public func addRule(rule: HBRule) {
+    public func addRule(rule: HBRule) -> HBValidator {
         if let rawRule = rule.getRawRule() {
             self.mapRules[rawRule] = rule
             self.validator.addRule(rawRule)
         }
+        return self
     }
 
     public func getRules() -> Array<HBRule> {
@@ -89,6 +90,51 @@ import Swift
 
     public func validate(value: String) -> Bool {
         return self.validator.validate(value)
+    }
+
+    // MARK: - Some Sugar
+    public func must(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func mustBe(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func mustHave(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func and(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func andMust(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func andMustBe(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    public func andMustHave(rule: HBRule) -> HBValidator {
+        return self.addRule(rule)
+    }
+
+    class public func addRule(rule: HBRule) -> HBValidator {
+        return HBValidator().addRule(rule)
+    }
+
+    class public func must(rule: HBRule) -> HBValidator {
+        return HBValidator().addRule(rule)
+    }
+
+    class public func mustBe(rule: HBRule) -> HBValidator {
+        return HBValidator().addRule(rule)
+    }
+
+    class public func mustHave(rule: HBRule) -> HBValidator {
+        return HBValidator().addRule(rule)
     }
 
 }
