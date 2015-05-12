@@ -7,30 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90CB81C1B02742B00C30411 /* HBRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8091B02742B00C30411 /* HBRule.swift */; };
+		D90CB81D1B02742B00C30411 /* HBValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB80A1B02742B00C30411 /* HBValidator.swift */; };
+		D90CB81E1B02742B00C30411 /* HBContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB80C1B02742B00C30411 /* HBContains.swift */; };
+		D90CB81F1B02742B00C30411 /* HBEndsWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB80D1B02742B00C30411 /* HBEndsWith.swift */; };
+		D90CB8201B02742B00C30411 /* HBLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB80E1B02742B00C30411 /* HBLength.swift */; };
+		D90CB8211B02742B00C30411 /* HBStartsWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB80F1B02742B00C30411 /* HBStartsWith.swift */; };
+		D90CB8221B02742B00C30411 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8121B02742B00C30411 /* Rule.swift */; };
+		D90CB8231B02742B00C30411 /* Contains.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8141B02742B00C30411 /* Contains.swift */; };
+		D90CB8241B02742B00C30411 /* EndsWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8151B02742B00C30411 /* EndsWith.swift */; };
+		D90CB8251B02742B00C30411 /* Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8161B02742B00C30411 /* Length.swift */; };
+		D90CB8261B02742B00C30411 /* Lowercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8171B02742B00C30411 /* Lowercase.swift */; };
+		D90CB8271B02742B00C30411 /* StartsWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8181B02742B00C30411 /* StartsWith.swift */; };
+		D90CB8281B02742B00C30411 /* Uppercase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB8191B02742B00C30411 /* Uppercase.swift */; };
+		D90CB8291B02742B00C30411 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CB81A1B02742B00C30411 /* Validator.swift */; };
 		D98048291AFBE7CD006215C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98048281AFBE7CD006215C4 /* main.m */; };
 		D980482C1AFBE7CD006215C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D980482B1AFBE7CD006215C4 /* AppDelegate.m */; };
-		D98048431AFBE7CD006215C4 /* HonourBridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D980483D1AFBE7CD006215C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D980481B1AFBE7CD006215C4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D98048221AFBE7CD006215C4;
-			remoteInfo = HonourBridge;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D90CB8091B02742B00C30411 /* HBRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBRule.swift; sourceTree = "<group>"; };
+		D90CB80A1B02742B00C30411 /* HBValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBValidator.swift; sourceTree = "<group>"; };
+		D90CB80C1B02742B00C30411 /* HBContains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBContains.swift; sourceTree = "<group>"; };
+		D90CB80D1B02742B00C30411 /* HBEndsWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEndsWith.swift; sourceTree = "<group>"; };
+		D90CB80E1B02742B00C30411 /* HBLength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBLength.swift; sourceTree = "<group>"; };
+		D90CB80F1B02742B00C30411 /* HBStartsWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBStartsWith.swift; sourceTree = "<group>"; };
+		D90CB8121B02742B00C30411 /* Rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		D90CB8141B02742B00C30411 /* Contains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contains.swift; sourceTree = "<group>"; };
+		D90CB8151B02742B00C30411 /* EndsWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndsWith.swift; sourceTree = "<group>"; };
+		D90CB8161B02742B00C30411 /* Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Length.swift; sourceTree = "<group>"; };
+		D90CB8171B02742B00C30411 /* Lowercase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lowercase.swift; sourceTree = "<group>"; };
+		D90CB8181B02742B00C30411 /* StartsWith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartsWith.swift; sourceTree = "<group>"; };
+		D90CB8191B02742B00C30411 /* Uppercase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uppercase.swift; sourceTree = "<group>"; };
+		D90CB81A1B02742B00C30411 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		D98048231AFBE7CD006215C4 /* HonourBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HonourBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98048271AFBE7CD006215C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D98048281AFBE7CD006215C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D980482A1AFBE7CD006215C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D980482B1AFBE7CD006215C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonourBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98048411AFBE7CD006215C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HonourBridgeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,21 +55,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98048391AFBE7CD006215C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90CB8081B02742B00C30411 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8091B02742B00C30411 /* HBRule.swift */,
+				D90CB80A1B02742B00C30411 /* HBValidator.swift */,
+				D90CB80B1B02742B00C30411 /* Rules */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D90CB80B1B02742B00C30411 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB80C1B02742B00C30411 /* HBContains.swift */,
+				D90CB80D1B02742B00C30411 /* HBEndsWith.swift */,
+				D90CB80E1B02742B00C30411 /* HBLength.swift */,
+				D90CB80F1B02742B00C30411 /* HBStartsWith.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		D90CB8101B02742B00C30411 /* Honour */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8111B02742B00C30411 /* Library */,
+			);
+			path = Honour;
+			sourceTree = "<group>";
+		};
+		D90CB8111B02742B00C30411 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8121B02742B00C30411 /* Rule.swift */,
+				D90CB81A1B02742B00C30411 /* Validator.swift */,
+				D90CB8131B02742B00C30411 /* Rules */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		D90CB8131B02742B00C30411 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8141B02742B00C30411 /* Contains.swift */,
+				D90CB8151B02742B00C30411 /* EndsWith.swift */,
+				D90CB8161B02742B00C30411 /* Length.swift */,
+				D90CB8171B02742B00C30411 /* Lowercase.swift */,
+				D90CB8181B02742B00C30411 /* StartsWith.swift */,
+				D90CB8191B02742B00C30411 /* Uppercase.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		D932CB4D1B0133BE0059B2DB /* HonourBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D90CB8081B02742B00C30411 /* Library */,
+				D90CB8101B02742B00C30411 /* Honour */,
+			);
+			path = HonourBridge;
+			sourceTree = "<group>";
+		};
 		D980481A1AFBE7CD006215C4 = {
 			isa = PBXGroup;
 			children = (
 				D98048251AFBE7CD006215C4 /* HonourBridge */,
-				D980483F1AFBE7CD006215C4 /* HonourBridgeTests */,
 				D98048241AFBE7CD006215C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				D98048231AFBE7CD006215C4 /* HonourBridge.app */,
-				D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +138,7 @@
 		D98048251AFBE7CD006215C4 /* HonourBridge */ = {
 			isa = PBXGroup;
 			children = (
+				D932CB4D1B0133BE0059B2DB /* HonourBridge */,
 				D980482A1AFBE7CD006215C4 /* AppDelegate.h */,
 				D980482B1AFBE7CD006215C4 /* AppDelegate.m */,
 				D98048261AFBE7CD006215C4 /* Supporting Files */,
@@ -84,23 +151,6 @@
 			children = (
 				D98048271AFBE7CD006215C4 /* Info.plist */,
 				D98048281AFBE7CD006215C4 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D980483F1AFBE7CD006215C4 /* HonourBridgeTests */ = {
-			isa = PBXGroup;
-			children = (
-				D98048421AFBE7CD006215C4 /* HonourBridgeTests.m */,
-				D98048401AFBE7CD006215C4 /* Supporting Files */,
-			);
-			path = HonourBridgeTests;
-			sourceTree = "<group>";
-		};
-		D98048401AFBE7CD006215C4 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D98048411AFBE7CD006215C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,24 +175,6 @@
 			productReference = D98048231AFBE7CD006215C4 /* HonourBridge.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D980483B1AFBE7CD006215C4 /* HonourBridgeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D98048491AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridgeTests" */;
-			buildPhases = (
-				D98048381AFBE7CD006215C4 /* Sources */,
-				D98048391AFBE7CD006215C4 /* Frameworks */,
-				D980483A1AFBE7CD006215C4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D980483E1AFBE7CD006215C4 /* PBXTargetDependency */,
-			);
-			name = HonourBridgeTests;
-			productName = HonourBridgeTests;
-			productReference = D980483C1AFBE7CD006215C4 /* HonourBridgeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,10 +186,6 @@
 				TargetAttributes = {
 					D98048221AFBE7CD006215C4 = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					D980483B1AFBE7CD006215C4 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = D98048221AFBE7CD006215C4;
 					};
 				};
 			};
@@ -175,20 +203,12 @@
 			projectRoot = "";
 			targets = (
 				D98048221AFBE7CD006215C4 /* HonourBridge */,
-				D980483B1AFBE7CD006215C4 /* HonourBridgeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D98048211AFBE7CD006215C4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D980483A1AFBE7CD006215C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,28 +222,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90CB8291B02742B00C30411 /* Validator.swift in Sources */,
+				D90CB81D1B02742B00C30411 /* HBValidator.swift in Sources */,
+				D90CB8251B02742B00C30411 /* Length.swift in Sources */,
+				D90CB81C1B02742B00C30411 /* HBRule.swift in Sources */,
 				D980482C1AFBE7CD006215C4 /* AppDelegate.m in Sources */,
+				D90CB8221B02742B00C30411 /* Rule.swift in Sources */,
+				D90CB8201B02742B00C30411 /* HBLength.swift in Sources */,
+				D90CB8271B02742B00C30411 /* StartsWith.swift in Sources */,
+				D90CB8281B02742B00C30411 /* Uppercase.swift in Sources */,
+				D90CB8211B02742B00C30411 /* HBStartsWith.swift in Sources */,
+				D90CB8231B02742B00C30411 /* Contains.swift in Sources */,
 				D98048291AFBE7CD006215C4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D98048381AFBE7CD006215C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98048431AFBE7CD006215C4 /* HonourBridgeTests.m in Sources */,
+				D90CB8261B02742B00C30411 /* Lowercase.swift in Sources */,
+				D90CB8241B02742B00C30411 /* EndsWith.swift in Sources */,
+				D90CB81E1B02742B00C30411 /* HBContains.swift in Sources */,
+				D90CB81F1B02742B00C30411 /* HBEndsWith.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D980483E1AFBE7CD006215C4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D98048221AFBE7CD006215C4 /* HonourBridge */;
-			targetProxy = D980483D1AFBE7CD006215C4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D98048441AFBE7CD006215C4 /* Debug */ = {
@@ -246,6 +264,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -290,6 +309,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -312,10 +332,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = HonourBridge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -323,44 +347,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = HonourBridge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D980484A1AFBE7CD006215C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HonourBridgeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonourBridge.app/HonourBridge";
-			};
-			name = Debug;
-		};
-		D980484B1AFBE7CD006215C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HonourBridgeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HonourBridge.app/HonourBridge";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -383,14 +376,7 @@
 				D98048481AFBE7CD006215C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D98048491AFBE7CD006215C4 /* Build configuration list for PBXNativeTarget "HonourBridgeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D980484A1AFBE7CD006215C4 /* Debug */,
-				D980484B1AFBE7CD006215C4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
