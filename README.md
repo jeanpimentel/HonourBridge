@@ -133,7 +133,7 @@ result.invalidRule // HBStartsWith*
 
 |                       HonourBridge Version                       | Minimum iOS Target |               Notes                |
 |:----------------------------------------------------------------:|:------------------:|:----------------------------------:|
-| [0.1.0](https://github.com/jeanpimentel/HonourBridge/tree/0.1.0) |       iOS 7        | Xcode 6.3 (Swift 1.2) is required. |
+| [0.1.1](https://github.com/jeanpimentel/HonourBridge/tree/0.1.1) |       iOS 7        | Swift 1.2 (Xcode 6.3) is required. |
 
 
 # Contributing
@@ -151,16 +151,30 @@ result.invalidRule // HBStartsWith*
 
 # Validators
 
-Working in progress...
+Always a working in progress...
 
-**Implemented:**
+**Available now:**
 
+- AlwaysInvalid
+- AlwaysValid
 - Contains
+- Email
 - EndsWith
 - Length
 - Lowercase
+- NoWhitespace
+- NotEmpty
+- Regex
+- Roman
 - StartsWith
 - Uppercase
+- Version
+
+
+**Localized validators**
+
+- Brazil (BR)
+	- CPF
 
 # License
 
