@@ -62,10 +62,6 @@ public class Validator {
     }
 
     // MARK: - Some Sugar
-    public func must(rule: Rule) -> Validator {
-        return self.addRule(rule)
-    }
-
     public func mustBe(rule: Rule) -> Validator {
         return self.addRule(rule)
     }
